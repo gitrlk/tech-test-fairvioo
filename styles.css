@@ -32,7 +32,7 @@ html *
 .block {
 	margin-left: -5vw;
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 	margin-top: -5vw;
 }
 .circle {
@@ -84,17 +84,7 @@ html *
 }
 
 .buttonz {
-	margin-top: 2vw;
-}
-
-.like_button {
-	height: 30px;
-	width: 95px;
-	border: 1px solid #4DE6A3;
-	border-radius: 100px;
-	background-color: #FFF;
-	color: #4DE6A3;
-	text-align: center;
+	margin-top: 5vw;
 }
 
 .report_button {
@@ -104,6 +94,7 @@ html *
 	background-color: #FFF;
 	border-radius: 100px;
 	color: #E05D6A;
+	text-align: center;
 }
 
 
@@ -140,22 +131,28 @@ html *
 	 color: #D1D2D5
 }
 
-.button_cbeauvoi {
-	border: 1px solid red;
+.like_button {
+	border: 1px solid #4DE6A3;
+	color: #4DE6A3;
 	border-radius: 50px;
-	width: 40%;
 	text-align: center;
 }
 
-.button_cbeauvoi > p, div { display: inline-block; }
-.button_cbeauvoi > p { margin: 0; }
-.button_cbeauvoi > div 
-{ 
+.like_button > p, div { display: inline-block; }
+.like_button > p { margin: 0; }
+.like_button > div
+{
 	border-radius: 100%;
-	background: blue;
+	background: #4DE6A3;
 	color: white;
-	height: 30px; width: 30px;
+	height: 25px; width: 25px;
     float: right;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.5;
+}
+
+.line {
+	height: 2px;
+	width: 210px;
+	border: 1px solid #E0E1E7;
 }
