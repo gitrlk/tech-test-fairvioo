@@ -1,0 +1,17 @@
+.main {
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	/* box-shadow: -9px 9px 25px 0 #E0E1E7; */
+}
+
+.eval {
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+}
+
+.rate {
+	float: right;
+	border-radius: 5px;
+	border: 1px solid black;
+}
