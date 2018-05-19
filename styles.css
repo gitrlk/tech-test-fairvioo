@@ -139,3 +139,23 @@ html *
 .comment {
 	 color: #D1D2D5
 }
+
+.button_cbeauvoi {
+	border: 1px solid red;
+	border-radius: 50px;
+	width: 40%;
+	text-align: center;
+}
+
+.button_cbeauvoi > p, div { display: inline-block; }
+.button_cbeauvoi > p { margin: 0; }
+.button_cbeauvoi > div 
+{ 
+	border-radius: 100%;
+	background: blue;
+	color: white;
+	height: 30px; width: 30px;
+    float: right;
+    text-align: center;
+    line-height: 1.8;
+}
