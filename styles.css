@@ -219,8 +219,6 @@ html *
 	margin-left: -43px;
 }
 
-
-
 .circle_check {
 	max-width: 9%;
 	margin-top: -0.5vw;
@@ -233,13 +231,76 @@ html *
 }
 
 @media only screen and (max-width: 768px) {
+
 	.eval-container {
 		order : -1;
 	}
+
 	.to_hide{
 		display: none;
 	}
 
+	.buy_date_user {
+		margin-left: -155px;
+	}
+
+	.circle_check {
+		margin-left: 15px;
+		max-width: 7%;
+	}
+
+	.star {
+		margin-left: 18px;
+	}
+
+	.circle {
+		width: 50px;
+		height: 50px;
+	}
+
+	.name_display {
+    color: #4982D6;
+    margin-top: -52px;
+    font-weight: bolder;
+	font-size: 24px;
+    text-align: left;
+    margin-left: 23px;
+    margin-bottom: 0;
+	}
+
+	.note {
+    margin-left: -70px;
+    margin-top: 12px;
+	font-size: 20px;
+		}
+
+	.buy_date_user {
+		font-size: 14px;
+    	margin-left: -139px;
+	}
+
+	.buy_date {
+		order: -1 !important;
+	}
+
+	.sorry {
+		color: #9B9B9B;
+	    font-size: 12px;
+	    margin-left: -238px;
+	    position: absolute;
+	    margin-top: -106px;
+		font-size: 16px;
+	    margin-bottom: -24px;
+		}
+
+	.abso {
+		position: absolute;
+		margin-top: 85px;
+	}
+
+	.comment {
+		font-size: 20px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -274,10 +335,10 @@ html *
 		margin-left: 2.5vw;
 	}
 
-	#test {
+	/* #test {
 		display: none;
 	}
-
+ */
 	.line {
 		display: none;
 	}
@@ -290,4 +351,7 @@ html *
 		display: none;
 	}
 
+	/* .suports {
+		margin-top: 100px;
+	} */
 }
