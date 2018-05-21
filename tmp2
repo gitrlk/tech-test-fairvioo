@@ -7,10 +7,6 @@ html *
 	display: none;
 }
 
-.link_img_tlmc {
-	display: none;
-}
-
 .main {
 	background-color: #FFFFFF;
 }
@@ -36,18 +32,19 @@ html *
 }
 
 .block {
+	margin-left: -5vw;
     text-align: center;
-	margin-top: -2vw;
+	margin-top: -5vw;
 }
 .circle {
 	background-color: #D8D8D8;
 	border-radius: 50%;
     color: white;
-    height: 40px;
+    height: 50px;
     font-weight: bold;
-    width: 40px;
+    width: 50px;
     display: table;
-    margin: 32px auto 0 -15px;
+    margin: 20px auto 0 1.4vw;
 }
 
 .circle_likes {
@@ -76,48 +73,47 @@ html *
 }
 
 .merch_eval {
-	text-align: center;
 	margin-top: 3vw;
 }
-
-/* .eval-container {
-	order : -1;
-} */
 
 .supported_assoc {
 	margin-top: 3vw;
 }
 
 .revioo {
-	/* margin-top: 5vw; */
+	margin-top: 5vw;
 }
 
 .buttonz {
+    margin-top: 5vw;
 }
 
 .report_button {
-	height: 33px;
-    width: 100px;
-    border: 1px solid #E05D6A;
-    background-color: #FFF;
-    border-radius: 100px;
-    color: #E05D6A;
-    text-align: center;
-    line-height: 1.5;
-	margin-left: 15px;
+	height: 40px;
+	width: 83px;
+	border: 1px solid #E05D6A;
+	background-color: #FFF;
+	border-radius: 100px;
+	color: #E05D6A;
+	text-align: center;
+	line-height: 2;
 }
 
 
+.stars {
+	margin-left: -5vw;
+	margin-bottom: 2vw;
+	margin-top: 4vw;
+}
+
 .star {
-	margin-top: -15px;
-	margin-left: 10px;
+	margin-left: 2.5vw;
 }
 
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
 }
-
 
 .no-gutter_top > [class*='col-2'] {
     padding-right:0;
@@ -143,9 +139,7 @@ html *
 	color: #4DE6A3;
 	border-radius: 50px;
 	text-align: center;
-	line-height: 1.5;
-	height: 33px;
-	width: 100px;
+	line-height: 2;
 }
 
 .like_button > p, div { display: inline-block; }
@@ -155,7 +149,7 @@ html *
 	border-radius: 100%;
 	background: #4DE6A3;
 	color: white;
-	height: 25px; width: 25px;
+	height: 35px; width: 35px;
     float: right;
     text-align: center;
     line-height: 2;
@@ -194,54 +188,6 @@ html *
 	max-width: 50% !important;
 }
 
-
-.stars {
-    margin-top: 9px;
-}
-.name_display {
-	color: #4982D6;
-    margin-top: -40px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 23px;;
-	margin-bottom: 0;
-}
-
-.buy_date {
-	font-size: 12px;
-	color : #9B9B9B;
-	margin-left: 23px;
-}
-
-.buy_date_user {
-	font-size: 12px;
-	color : #9B9B9B;
-	margin-left: -43px;
-}
-
-
-
-.circle_check {
-	max-width: 9%;
-	margin-top: -0.5vw;
-	margin-left: 0.6vw;
-}
-
-.note {
-	margin-left: -70px;
-    margin-top: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-	.eval-container {
-		order : -1;
-	}
-	.to_hide{
-		display: none;
-	}
-
-}
-
 @media only screen and (min-width: 768px) {
 
 	.link_to_shop {
@@ -250,14 +196,6 @@ html *
 
 	.link_img {
 		display: block;
-		margin-left: 45px;
-		max-width: 25%;
-	}
-
-	.link_img_tlmc {
-		display: block;
-		margin-left: 45px;
-		margin-top: 25px;
 		max-width: 25%;
 	}
 
@@ -285,9 +223,4 @@ html *
 	.revioo {
 		display: inline-block;
 	}
-
-	.hid {
-		display: none;
-	}
-
 }
