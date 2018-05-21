@@ -1,3 +1,7 @@
+/*
+STANDARD RULES
+*/
+
 html * {font-family: Lato !important;}
 
 .link_img {display: none;}
@@ -144,6 +148,16 @@ html * {font-family: Lato !important;}
 .check_two {
 	margin-top: 60px;
 	float: left;
+}
+
+.star_text {
+	color : #00E9A6;
+	margin-left: 10px;
+}
+
+.rate_cont {
+	margin-left: -10px;
+	font-size: 15px;
 }
 
 /*
