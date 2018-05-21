@@ -13,8 +13,6 @@ html *
 
 .bordered {
 	border-left: 1px solid;
-	/* height: 80%; */
-	/* margin-top: 30px; */
 }
 
 .link_img {
@@ -110,14 +108,14 @@ html *
 }
 
 .report_button {
-	height: 40px;
+	height: 35px;
     width: 120Px;
     border: 1px solid #E05D6A;
     background-color: #FFF;
     border-radius: 100px;
     color: #E05D6A;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     margin-left: 15px;
 }
 
@@ -150,7 +148,8 @@ html *
 }
 
 .comment {
-	 color: #D1D2D5
+	 color: #D1D2D5;
+	 margin-top: -10px;
 }
 
 .like_button {
@@ -158,8 +157,8 @@ html *
     color: #4DE6A3;
     border-radius: 50px;
     text-align: center;
-    line-height: 2;
-    height: 40px;
+    line-height: 1.5;
+    height: 35px;
     width: 120px;
 }
 
@@ -173,7 +172,8 @@ html *
 	height: 25px; width: 25px;
     float: right;
     text-align: center;
-    line-height: 2;
+	font-size: 90%;
+    line-height: 1.8;
 }
 
 .line {
@@ -228,7 +228,8 @@ html *
 .buy_date {
 	font-size: 12px;
 	color : #9B9B9B;
-	/* margin-left: 23px; */
+	/* float:right;
+	margin-top: 10px; */
 }
 
 .buy_date_user {
@@ -354,8 +355,8 @@ MOBILE VIEW RULES
 	}
 	.heart_circle {
 		max-width: 16%;
-margin-left: 0px;
-margin-top: -10px;
+		margin-left: 0px;
+		margin-top: -10px;
 	}
 	.star_rate {
 		max-width: 15%;
@@ -414,7 +415,8 @@ DESKTOP VIEW RULES
 	}
 
 	.heart_circle {
-		max-width: 10%;
+		max-width: 11%;
+		margin-top: -4px;
 	}
 
 	.line {
@@ -433,6 +435,26 @@ DESKTOP VIEW RULES
 		display: none;
 	}
 
+	.buy_date {
+		float:right;
+		margin-top: 10px;
+	}
+
+	.supports {
+		margin-top: 29px;
+	}
+
+	.marger {
+		margin-top: 14px;
+	}
+
+	.star_rate {
+		margin-top: -8px;
+	}
+
+	.star_text {
+
+	}
 	/* .eval_text .assoc_text{
 		font-weight: bold;
 	} */
